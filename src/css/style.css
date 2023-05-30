@@ -1,0 +1,168 @@
+html, body, section#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169 ,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Navegação
+----------------------------- */
+header nav.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #9BF0E1;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: #fff;
+    margin: 10px 15px;
+}
+
+/* Home
+----------------------------- */
+.btn-custom {
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 500px;
+    transition: background 0.4s color 0.4s;
+}
+
+.btn-roxo {
+    background: #7c26f8;
+}
+
+.btn-roxo:hover {
+    background: #6207E3 ;
+}
+
+.btn-branco {
+    border: 2px solid #fff;
+}
+
+.btn-branco:hover {
+    background: #fff;
+    color: #000;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+/* Conteúdos
+----------------------------- */
+section#servicos {
+    background: #fff;
+}
+
+.albuns{
+    padding: 15px 0;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#servicos h2, h3{
+    color: #7C25F8;
+}
+
+section#recursos h2 {
+    color: #fff;
+}
+
+section#recursos h3 {
+    color: #9BF0E1;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+/* Rodapé
+----------------------------- */
+footer {
+    position: relative;
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    margin-top: 10px;
+}
+
+footer .navbar-nav a {
+    color: #fff;
+    font-size: .8em;
+}
+
+footer .navbar-nav a:hover {
+    text-decoration: none;
+    color: #9BF0E1;
+}
+
+.btn-rede {
+    background: #202020;
+    color: #fff;
+    font-size: 1.8em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+}
+
+.btn-rede:hover {
+    color: #9BF0E1;
+}
+
+/* Tipografia
+----------------------------- */
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    font-size: 3em;
+}
+
+h3 {
+    color: #7C25F8;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    font-size: 2em;
+}
+
